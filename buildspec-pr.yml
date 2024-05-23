@@ -2,7 +2,7 @@ version: 0.2
 
 phases:
   install:
-    comands:
+    commands:
       - echo Installing  Node 21 e npm
       - curl -fsSL https://rpm.nodesource.com/setup_21.x | sudo bash -
       - sudo yum install -y nodejs
