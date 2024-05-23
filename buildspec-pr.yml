@@ -7,8 +7,9 @@ phases:
       - curl -fsSL https://rpm.nodesource.com/setup_21.x | sudo bash -
       - sudo yum install -y nodejs
   build:
-    - npm install --loglevel=error
-    - Criando os artefatos
-    - REACT_APP_API_URL=http://localhost:3001 SKIP_PREFLIGHT_CHECK=true npm run build --prefix client
-    - echo Running tests
-    - npm test
+    commands:
+      - npm install --loglevel=error
+      - Criando os artefatos
+      - REACT_APP_API_URL=http://localhost:3001 SKIP_PREFLIGHT_CHECK=true npm run build --prefix client
+      - echo Running tests
+      - npm test
