@@ -100,7 +100,7 @@ function App() {
                   onToggle={toggleReminder}
                 />
               ) : (
-                "Nenhuma tarefa aqui ainda!"
+                "Nenhuma tarefa chegou aqui ainda!"
               )}
             </>
           )}
