@@ -1,4 +1,4 @@
-## Projeto base para o evento Bootcamp Imersão AWS que irei realizar.
+## Projeto base para o evento Bootcamp Imersão AWS.
 
 #### Para rodar as migrations no container ####
 ```
